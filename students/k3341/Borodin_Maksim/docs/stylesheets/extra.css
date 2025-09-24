@@ -1,0 +1,60 @@
+/* Дополнительные стили для лабораторных работ */
+
+/* Улучшение отображения кода */
+.highlight {
+    border-radius: 4px;
+    margin: 1em 0;
+}
+
+/* Стили для заголовков заданий */
+h2 {
+    border-bottom: 2px solid var(--md-primary-fg-color);
+    padding-bottom: 0.3em;
+}
+
+/* Выделение важных блоков */
+.admonition.note {
+    border-left: 4px solid #448aff;
+}
+
+.admonition.warning {
+    border-left: 4px solid #ff9800;
+}
+
+/* Улучшение отображения таблиц */
+table {
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+table th,
+table td {
+    border: 1px solid var(--md-default-fg-color--lighter);
+    padding: 0.6em 1em;
+}
+
+table th {
+    background-color: var(--md-default-bg-color);
+    font-weight: bold;
+}
+
+/* Стили для скриншотов */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin: 1em 0;
+}
+
+/* Выделение мест для скриншотов */
+em:contains("Вставить скриншот") {
+    background-color: #fff3cd;
+    border: 1px dashed #856404;
+    padding: 0.5em;
+    display: block;
+    border-radius: 4px;
+    color: #856404;
+    font-style: normal;
+    text-align: center;
+}
