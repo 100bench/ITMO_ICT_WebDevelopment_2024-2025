@@ -36,7 +36,7 @@ theme:
 nav:
   - Главная: index.md
   - Лабораторная работа №1:
-    - Отчет: index.md
+    - Отчет: Lr1.md
 
 # Расширения Markdown
 markdown_extensions:
